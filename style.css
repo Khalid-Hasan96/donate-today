@@ -10,37 +10,44 @@ body {
 .head-container {
     background-image: url(./images/donation13.jpg);
     background-repeat: no-repeat;
-    height: 700px;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
-
 }
 
-.head-sec {
+.head-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
     text-align: center;
 }
 
-.head-texts {
-    color: white;
+.content h1,
+p {
+    color: #fff;
 }
 
-.head-texts h1 {
-    font-size: 60px;
+.content h1 {
+    font-size: 50px;
 }
 
-.head-texts p {
+.content p {
     font-size: 20px;
-    text-align: center;
+}
+
+.btn-space {
+    margin-top: 20px;
 }
 
 .donate-btn {
     text-decoration: none;
-    color: white;
-    font-weight: 700;
     background-color: #FF5959;
-    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 30px;
     border-radius: 10px;
-}
-
-.button {
-    margin-top: 20px;
 }
