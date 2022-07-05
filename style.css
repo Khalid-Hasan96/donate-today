@@ -13,6 +13,7 @@ body {
     width: 100%;
     height: 100vh;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .head-content {
@@ -26,16 +27,13 @@ body {
     text-align: center;
 }
 
-.content h1,
-p {
-    color: #fff;
-}
-
 .content h1 {
+    color: #fff;
     font-size: 50px;
 }
 
 .content p {
+    color: #fff;
     font-size: 20px;
 }
 
@@ -50,4 +48,159 @@ p {
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 10px;
+}
+
+.donate-today {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.money {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.donate-texts h1 {
+    font-size: 30px;
+}
+
+donate-texts p {
+    font-size: 25px;
+}
+
+.money-design {
+    background-color: rgb(230, 230, 230);
+    padding: 35px 35px;
+    /* border: 1px solid rgb(162, 162, 162); */
+    color: rgb(93, 93, 93);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.money-special-design {
+    background-color: rgb(255, 195, 195);
+    padding: 35px 35px;
+    border: 2px solid rgb(255, 94, 94);
+    color: rgb(255, 94, 94);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.money-input {
+    margin-top: 20px;
+}
+
+.input-money {
+    width: 500px;
+    height: 35px;
+    text-align: center;
+}
+
+.donate-plan {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.donate-plan h1 {
+    font-size: 30px;
+}
+
+.our-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.food {
+    background-color: #d1ddde;
+    width: 360px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.food img {
+    width: 80px;
+}
+
+.shelter {
+    background-color: #ffe2e2;
+    width: 360px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.shelter img {
+    width: 80px;
+}
+
+.education {
+    background-color: rgb(255, 237, 234);
+    ;
+    width: 360px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.education img {
+    width: 80px;
+}
+
+.get-update {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.get-update h1 {
+    font-size: 30px;
+}
+
+.email-design {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.email-container {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #ffd0d0;
+    padding: 50px 60px;
+}
+
+.subscribe-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5959;
+    font-weight: 700;
+    padding: 8px 30px;
+
+}
+
+.footer-color {
+    background-color: #000;
+    text-align: center;
+}
+
+.humble {
+    font-family: 'Lobster', cursive;
+    color: #ff0000;
+}
+
+.footer-color p {
+    color: #fff;
+}
+
+.footer-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
