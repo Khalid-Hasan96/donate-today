@@ -130,7 +130,7 @@ donate-texts p {
 }
 
 .shelter {
-    background-color: #ffe2e2;
+    background-color: #fffac8;
     width: 360px;
     height: 350px;
     padding: 20px;
@@ -142,8 +142,7 @@ donate-texts p {
 }
 
 .education {
-    background-color: rgb(255, 237, 234);
-    ;
+    background-color: #e4ffd3;
     width: 360px;
     height: 350px;
     padding: 20px;
@@ -152,6 +151,20 @@ donate-texts p {
 
 .education img {
     width: 80px;
+}
+
+.smile-container {
+    display: flex;
+    align-items: center;
+}
+
+.child {
+    width: 50%;
+}
+
+.child img {
+    width: 80%;
+    padding-left: 10%;
 }
 
 .get-update {
