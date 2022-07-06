@@ -29,7 +29,7 @@ body {
 
 .content h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .content p {
@@ -74,7 +74,6 @@ donate-texts p {
 .money-design {
     background-color: rgb(230, 230, 230);
     padding: 35px 35px;
-    /* border: 1px solid rgb(162, 162, 162); */
     color: rgb(93, 93, 93);
     border-radius: 10px;
     margin-right: 10px;
@@ -153,9 +152,22 @@ donate-texts p {
     width: 80px;
 }
 
+.plan-text {
+    text-align: justify;
+}
+
+.need-space {
+    margin-top: 20px;
+}
+
 .smile-container {
     display: flex;
-    align-items: center;
+
+}
+
+.smile-texts h1 {
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .child {
